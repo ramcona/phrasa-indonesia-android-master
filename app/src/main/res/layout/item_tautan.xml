@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical"
+android:background="@color/white"
+android:layout_width="match_parent"
+android:padding="@dimen/_8sdp"
+android:layout_height="wrap_content">
+
+<TextView
+    android:id="@+id/itautan_tv_data"
+    style="@style/text_reg_10"
+    android:textColor="@color/colorPrimary"
+    android:text="@string/dummy"/>
+</LinearLayout>

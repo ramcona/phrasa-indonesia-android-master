@@ -1,0 +1,126 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/white</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <!--panggil font family -->
+        <item name="android:fontFamily">@font/my_font</item>
+
+    </style>
+
+    <style name="Font" parent="TextAppearance.AppCompat.Widget.TextView.SpinnerItem">
+        <item name="android:fontFamily">@font/inter_reguler</item>
+    </style>
+
+    <style name="editTextEntryName">
+        <item name="android:maxLines">1</item>
+        <item name="android:lines">1</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="Progressbar">
+        <item name="colorAccent">@color/colorPrimary</item>
+    </style>
+
+    <!--        Jenis Font Yang Sering Digunakan         -->
+
+    <style name="text_h1_price">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/dark</item>
+        <item name="fontFamily">@font/inter_bold</item>
+        <item name="android:textSize">@dimen/_24sdp</item>
+    </style>
+
+    <style name="text_h2_price">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/dark</item>
+        <item name="fontFamily">@font/inter_bold</item>
+        <item name="android:textSize">@dimen/_18sdp</item>
+    </style>
+
+    <style name="text_h1_bold">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/dark</item>
+        <item name="fontFamily">@font/inter_bold</item>
+        <item name="android:textSize">@dimen/_14sdp</item>
+    </style>
+
+    <style name="text_bold_12">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="fontFamily">@font/inter_bold</item>
+        <item name="android:textSize">@dimen/_12sdp</item>
+    </style>
+
+    <style name="text_bold_12_match">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="fontFamily">@font/inter_bold</item>
+        <item name="android:textSize">@dimen/_12sdp</item>
+    </style>
+
+    <style name="text_bold_14_match">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="fontFamily">@font/inter_bold</item>
+        <item name="android:textSize">@dimen/_14sdp</item>
+    </style>
+
+    <style name="text_bold_16_match">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="fontFamily">@font/inter_bold</item>
+        <item name="android:textSize">@dimen/_16sdp</item>
+    </style>
+
+    <style name="text_reg_12">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/_12sdp</item>
+    </style>
+
+    <style name="text_reg_12_match">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/_12sdp</item>
+    </style>
+
+    <style name="text_reg_14_match">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/_14sdp</item>
+    </style>
+
+    <style name="text_reg_10">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/_10sdp</item>
+    </style>
+
+    <style name="text_bold_10">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/_10sdp</item>
+        <item name="fontFamily">@font/inter_bold</item>
+    </style>
+
+    <style name="text_reg_8">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/_9sdp</item>
+    </style>
+
+    <style name="text_bold_8">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/_9sdp</item>
+        <item name="fontFamily">@font/inter_bold</item>
+    </style>
+
+</resources>

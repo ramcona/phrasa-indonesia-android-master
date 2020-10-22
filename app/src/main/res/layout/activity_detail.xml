@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".ui.activity.detail.DetailActivity">
+
+    <include layout="@layout/layout_toolbar"/>
+    <com.facebook.shimmer.ShimmerFrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:duration="200"
+        android:id="@+id/detail_shimmer">
+        <include layout="@layout/placeholder_detail"/>
+    </com.facebook.shimmer.ShimmerFrameLayout>
+
+    <RelativeLayout
+        android:visibility="gone"
+        android:id="@+id/detail_div_pesan"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/detail_tv_pesan"
+            android:layout_centerInParent="true"
+            style="@style/text_reg_12"
+            android:text="@string/teks_gagal_internet"/>
+        <TextView
+            android:id="@+id/detail_tv_reload"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/detail_tv_pesan"
+            android:textColor="@color/dark2"
+            style="@style/text_bold_10"
+            android:text="@string/ulangi"/>
+    </RelativeLayout>
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:padding="@dimen/_10sdp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            
+            <TextView
+                android:id="@+id/detail_tv_sumber"
+                android:layout_gravity="end"
+                android:textColor="@color/white"
+                android:background="@drawable/background_shape_primary"
+                android:padding="@dimen/_5sdp"
+                style="@style/text_bold_10"
+                android:text="@string/sumber"/>
+            <TextView
+                android:id="@+id/detail_tv_phrasa"
+                android:text="@string/dummy"
+                style="@style/text_h1_bold"/>
+
+            <TextView
+                android:id="@+id/detail_tv_nomina"
+                android:textColor="@color/dark2"
+                android:text="@string/nomina_s"
+                style="@style/text_bold_10"/>
+            
+            <TextView
+                android:id="@+id/detail_tv_definisi"
+                android:textColor="@color/dark"
+                android:layout_marginTop="@dimen/_10sdp"
+                style="@style/text_reg_10"
+                android:text="@string/dummy_definisi"/>
+
+            <TextView
+                android:textColor="@color/dark2"
+                style="@style/text_bold_10"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:text="@string/tautan_terkait"/>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/detail_rv_tautan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <View
+                android:layout_marginTop="@dimen/_15sdp"
+                android:background="@color/abu2"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"/>
+
+            <!--SINONIM-->
+            <TextView
+                android:textColor="@color/dark"
+                style="@style/text_bold_10"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:text="@string/sinonim"/>
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/detail_rv_sinonim"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <!--SINONIM-->
+
+            <!--TURUANAN-->
+            <TextView
+                android:textColor="@color/dark"
+                style="@style/text_bold_10"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:text="@string/kata_turunan"/>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/detail_rv_turunan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <!--TURUANAN-->
+
+            <!--GABUNGAN KATA-->
+            <TextView
+                android:textColor="@color/dark"
+                style="@style/text_bold_10"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:text="@string/gabungan_kata"/>
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/detail_rv_gabunganKata"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <!--GABUNGAN KATA-->
+
+            <!--PERIBAHASA-->
+            <TextView
+                android:textColor="@color/dark"
+                style="@style/text_bold_10"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:text="@string/peribahasa"/>
+            <TextView
+                android:id="@+id/detail_tv_peribahasa"
+                android:padding="@dimen/_10sdp"
+                style="@style/text_reg_10"
+                android:textColor="@color/dark"
+                android:text="@string/dummy"/>
+            <androidx.recyclerview.widget.RecyclerView
+                android:visibility="gone"
+                android:id="@+id/detail_rv_peribahasa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <!--PERIBAHASA-->
+
+            <!--TERJEMAHAN-->
+            <TextView
+                android:textColor="@color/dark"
+                style="@style/text_bold_10"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:text="@string/terjemahan"/>
+            <TextView
+                android:id="@+id/detail_tv_terjemah"
+                android:padding="@dimen/_10sdp"
+                style="@style/text_reg_10"
+                android:textColor="@color/dark"
+                android:text="@string/dummy"/>
+            <androidx.recyclerview.widget.RecyclerView
+                android:visibility="gone"
+                android:id="@+id/detail_rv_terjemah"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <!--TERJEMAHAN-->
+
+            <TextView
+                android:textColor="@color/dark"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:layout_marginBottom="@dimen/_20sdp"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:text="@string/sumber_data"
+                android:gravity="center"
+                style="@style/text_reg_10"/>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

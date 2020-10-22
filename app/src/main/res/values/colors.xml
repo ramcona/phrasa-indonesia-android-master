@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1FB8B3</color>
+    <color name="colorPrimaryDark">#1FB8B3</color>
+    <color name="colorAccent">#1FB8B3</color>
+
+    <color name="shapeSoft">#F6FCFC</color>
+    <color name="shapeSoftAccent">#FFF8FA</color>
+    <color name="shapeDark">#D53453</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="white2">#FBFBFB</color>
+    <color name="card">#F1F3F6</color>
+    <color name="abu1">#E0E0E0</color>
+    <color name="abu2">#F5F5F5</color>
+    <color name="abu3">#585858</color>
+
+    <color name="dark">#131415</color>
+    <color name="dark2">#A6131415</color>
+    <color name="red">#FF0000</color>
+    <color name="blue">#1E88E5</color>
+
+    <color name="status_green">#8BC34A</color>
+    <color name="status_yellow">#FFC107</color>
+    <color name="status_red">#F44336</color>
+    <color name="transparant">#00FFFFFF</color>
+
+    <color name="shimmer_color">#dddddd</color>
+    <color name="shimmer_color_2">#F3F3F3</color>
+</resources>

@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Phrasa Indonesia</string>
+    <string name="default_notification_channel_id">mpl</string>
+    <string name="default_activity">Default Activity</string>
+
+    <string name="teks_gagal_internet">Terjadi kesalahan,periksa internet anda</string>
+    <string name="teks_gagal_kesalahan">Terjadi Kesalahan, ulangi beberapa saat lagi</string>
+    <string name="mohon_tunggu">Mohon Tunggu…</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="lanjut">Lanjut</string>
+    <string name="lewati">Lewati</string>
+    <string name="deskripsi_pada_menu_konsen_ini_untuk_di_jelaskan_lebih_lanjut_dan_untuk_menjelaskan_fitur_fitur_oleh_aplikator_ke_pada_pengguna_dan_di_baca_lagi_oleh_penguna">Deskripsi pada menu konsen ini untuk di jelaskan lebih lanjut dan untuk menjelaskan fitur fitur oleh aplikator ke pada pengguna dan di baca lagi oleh penguna</string>
+    <string name="page_satu">Page Satu</string>
+    <string name="selesai">Selesai</string>
+    <string name="cari_phrasa">Cari Phrasa</string>
+    <string name="riwayat_pencarian">Riwayat Pencarian</string>
+    <string name="lihat_semuanya">Lihat Semuanya</string>
+    <string name="selamat_datang_cari_peribahasan_kata_terkait_terjemahan_dan_glosarium">Selamat datang. cari peribahasan, kata terkait, terjemahan dan sinonim</string>
+    <string name="sumber_data">Sumber data dari kateglo.com</string>
+    <string name="dummy">Dummy</string>
+    <string name="nomina_s">Nomina (%s)</string>
+    <string name="sumber">Sumber</string>
+    <string name="dummy_definisi">1.pohon bercabang banyak, tinggi dapat mencapai 10 m, daunnya lonjong, bunganya berwarna putih atau kehijau-hijauan dan berambut halus yang menjadi kering cokelat atau hitam ketika bunganya menjadi buah\n\n1.pohon bercabang banyak, tinggi dapat mencapai 10 m, daunnya lonjong, bunganya berwarna putih atau kehijau-hijauan dan berambut halus yang menjadi kering cokelat atau hitam ketika bunganya menjadi buah</string>
+    <string name="tautan_terkait">Tautan Terkait</string>
+    <string name="sinonim">Sinonim</string>
+    <string name="kata_turunan">Kata Turunan</string>
+    <string name="gabungan_kata">Gabungan Kata</string>
+    <string name="peribahasa">Peribahasa</string>
+    <string name="terjemahan">Terjemahan</string>
+    <string name="masukan_phrasa">Masukan Phrasa</string>
+    <string name="data">Data</string>
+    <string name="ulangi">Ulangi</string>
+</resources>
